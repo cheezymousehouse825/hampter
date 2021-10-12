@@ -186,15 +186,15 @@ Project Link: [https://github.com/cheezymousehouse825/hampter](https://github.co
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/cheezymousehouse825/repo.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/cheezymousehouse825/hampter.svg?style=for-the-badge
 [contributors-url]: https://github.com/cheezymousehouse825/hampter/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/cheezymousehouse825/repo.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/cheezymousehouse825/hampter.svg?style=for-the-badge
 [forks-url]: https://github.com/cheezymousehouse825/hampter/network/members
-[stars-shield]: https://img.shields.io/github/stars/cheezymousehouse825/repo.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/cheezymousehouse825/hampter.svg?style=for-the-badge
 [stars-url]: https://github.com/cheezymousehouse825/hampter/stargazers
-[issues-shield]: https://img.shields.io/github/issues/cheezymousehouse825/repo.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/cheezymousehouse825/hampter.svg?style=for-the-badge
 [issues-url]: https://github.com/cheezymousehouse825/hampter/issues
-[license-shield]: https://img.shields.io/github/license/cheezymousehouse825/repo.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/cheezymousehouse825/hampter.svg?style=for-the-badge
 [license-url]: https://github.com/cheezymousehouse825/hampter/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/cheezymousehouse825
