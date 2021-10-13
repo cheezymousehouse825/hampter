@@ -44,7 +44,7 @@
     <a href="https://github.com/cheezymousehouse825/hampter"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://youtu.be/jo2D8xdpaGI/">View Demo</a>
+    <a href="https://youtu.be/03mSQP930sk">View Demo</a>
     ·
     <a href="https://github.com/cheezymousehouse825/hampter/issues">Report Bug</a>
     ·
