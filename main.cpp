@@ -142,17 +142,25 @@ class MyApp: public wxApp
 public:
     bool OnInit()
     {
-    	wxMessageDialog *dial = new wxMessageDialog(NULL, 
-      		wxT("Hampter?"), wxT("Question"), 
-      		wxYES_NO | wxNO_DEFAULT | wxICON_QUESTION);
-
+	wxMessageDialog *dial = new wxMessageDialog(NULL, 
+		wxT("No matter what you choose, there will always be hampter."), wxT("Hampter Info"), wxOK);
 	dial->ShowModal();
+	
+    	wxMessageDialog *dial1 = new wxMessageDialog(NULL, 
+      		wxT("Hampter?"), wxT("Hampter"), 
+      		wxYES_NO | wxYES_DEFAULT | wxICON_QUESTION);
+	dial1->ShowModal();
+
+	wxMessageDialog *dial2 = new wxMessageDialog(NULL, 
+		wxT("Hampter is loaded. Brace yourself."), wxT("Hampter warning"), 
+		wxOK | wxICON_EXCLAMATION);
+	dial2->ShowModal();
 	
         // make sure to call this first
         wxInitAllImageHandlers();
         
         wxBoxSizer* sizer = new wxBoxSizer(wxHORIZONTAL);
-        frame = new wxFrame(NULL, wxID_ANY, wxT("Hello wxDC"), wxPoint(50,50), wxSize(800,600));
+        frame = new wxFrame(NULL, wxID_ANY, wxT("Hampter"), wxPoint(50,50), wxSize(800,600));
         
         // then simply create like this
         drawPane = new wxImagePanel( frame, wxT("hampter.jpeg"), wxBITMAP_TYPE_JPEG);
