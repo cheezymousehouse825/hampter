@@ -1,5 +1,10 @@
+#include <iostream>
 #include <wx/wx.h>
 #include <wx/sizer.h>
+#ifdef _WIN32
+#include <windows.h>
+#pragma comment(lib, "winmm.lib")
+#endif
 
 class wxImagePanel : public wxPanel
 {
@@ -136,7 +141,6 @@ void wxImagePanel::OnSize(wxSizeEvent& event){
 
 class MyApp: public wxApp
 {
-    
     wxFrame *frame;
     wxImagePanel * drawPane;
 public:
@@ -169,9 +173,15 @@ public:
         frame->SetSizer(sizer);
         
         frame->Show();
+#ifdef _WIN32
+PlaySound("./sound.wav", NULL, SND_FILENAME);
+#endif
+#ifdef linux
+system("ffplay -nodisp sound.wav &>/dev/null &");
+#endif
+
         return true;
-    } 
-    
+    }
 };
 
 IMPLEMENT_APP(MyApp)
