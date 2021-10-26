@@ -1,5 +1,12 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <iostream>
 #include <wx/wx.h>
 #include <wx/sizer.h>
+#ifdef _WIN32
+#include <stdio.h>
+#include <MMsystem.h>
+#include <windows.h>
+#endif
 
 class wxImagePanel : public wxPanel
 {
@@ -136,7 +143,6 @@ void wxImagePanel::OnSize(wxSizeEvent& event){
 
 class MyApp: public wxApp
 {
-    
     wxFrame *frame;
     wxImagePanel * drawPane;
 public:
@@ -169,9 +175,15 @@ public:
         frame->SetSizer(sizer);
         
         frame->Show();
+#ifdef _WIN32
+PlaySound(TEXT("sound.wav"),NULL,SND_ASYNC);
+#endif
+#ifdef linux
+system("ffplay -nodisp sound.wav &>/dev/null &");
+#endif
+
         return true;
-    } 
-    
+    }
 };
 
 IMPLEMENT_APP(MyApp)
