@@ -84,8 +84,6 @@
 
 [![Hampter Screenshot][product-screenshot]](https://github.com/cheezymousehouse825/hampter/raw/main/images/screenshot.png)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `cheezymousehouse825`, `hampter`, `cheezymh825`, `cheezymousehouse825`, `vaughn.macintyre`, `@gmail.com`, `Hampter`, `Useless window to display an image of a hamster.`
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
