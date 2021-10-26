@@ -1,9 +1,11 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <wx/wx.h>
 #include <wx/sizer.h>
 #ifdef _WIN32
+#include <stdio.h>
+#include <MMsystem.h>
 #include <windows.h>
-#pragma comment(lib, "winmm.lib")
 #endif
 
 class wxImagePanel : public wxPanel
@@ -174,7 +176,7 @@ public:
         
         frame->Show();
 #ifdef _WIN32
-PlaySound("./sound.wav", NULL, SND_FILENAME);
+PlaySound(TEXT("sound.wav"),NULL,SND_ASYNC);
 #endif
 #ifdef linux
 system("ffplay -nodisp sound.wav &>/dev/null &");
