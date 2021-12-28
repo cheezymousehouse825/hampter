@@ -202,7 +202,7 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Vaughn MacIntyre - [@cheezymh825](https://twitter.com/cheezymh825) - vaughn.macintyre@gmail.com
+Vaughn MacIntyre - [@cheezymh825](https://twitter.com/cheezymh825)
 
 Project Link: [https://github.com/cheezymousehouse825/hampter](https://github.com/cheezymousehouse825/hampter)
 
